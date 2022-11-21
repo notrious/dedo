@@ -1,0 +1,489 @@
+@font-face {
+    font-family: "Work Sans";
+    src: url("/resources/fonts/WorkSans-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("/resources/fonts/Montserrat-Bold.ttf");
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("/resources/fonts/Montserrat-Medium.ttf");
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: "Work Sans", sans-serif;
+}
+
+/* Website banner at the top */
+div#banner {
+    background-image: url(https://media.istockphoto.com/photos/golden-background-picture-id970013170?b=1&k=20&m=970013170&s=170667a&w=0&h=8DHu4R3fC7rQPS2ib17TxJGdt_yvhjtjornUjMlHcDY=);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    height: 75vh;
+    text-align: center;
+    border: 5px solid yellow;
+}
+
+/* Banner at the top of the webpage */
+div#banner-img-container {
+    width: 130px;
+    height: 130px;
+    border-radius: 100%;
+    margin: 20px;
+    margin-left: 135px;
+    padding: 10px;
+
+}
+
+/* Image inside the banner */
+img#banner-pic {
+    width: 100%;
+    border-radius: 50%;
+    object-fit: contain;
+}
+
+/* heading element used for the website title */
+h1 {
+    font-family: cursive;
+    sans-serif;
+    color: deeppink;
+    font-size: 40px;
+
+}
+
+/* heading element used for the title of each row/section under the banner */
+h2 {
+
+    margin-bottom: 10px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 28px;
+    background-color: lightpink;
+    text-align: center;
+
+}
+
+/* heading element used for the website slogan/tagline in the banner */
+h3 {
+    color: rgb(0, 0, 0);
+    padding: 1rem 5rem;
+    font-weight: 500;
+    font-family: "Montserrat", sans-serif;
+    background-color: darksalmon;
+    font-family: fantasy;
+}
+
+/* styling for all the paragraph elements  */
+p {
+    line-height: 1.2;
+    font-family: cursive;
+    sans-serif;
+}
+
+#de {
+    width: 90px;
+    height: 50px;
+    border-radius: 100%;
+    padding-left: 0px;
+}
+
+img {
+    widows: 100px;
+    height: 100px;
+    z-index: 1;
+}
+
+#ggg {
+    background-image: url();
+}
+
+
+
+
+
+
+/* styling for all the rows */
+div.row {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    padding: 5%;
+}
+
+/* styling for the columns inside each row */
+div.column {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+img {
+    width: 100%;
+    object-fit: contain;
+    opacity: 0.9;
+
+}
+
+#ddd {
+    background-color: violet;
+}
+
+/* styling for odd-numbered rows */
+.how:nth-child(odd) {
+    background-color: aliceblue;
+    border: 5px
+}
+
+/* styling for even-numbered rows */
+.row {
+
+    flex-direction: row-reverse;
+    color: #ffffff;
+}
+
+#ccc {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: relative;
+
+
+}
+
+#ddd {
+    display: flex;
+    list-style: none;
+    text-align: left;
+    padding-left: 5px
+}
+
+.wow {
+    background-image: url(https://i.pinimg.com/originals/df/3b/c2/df3bc2de71b7c6f330c80702522dacd4.jpg);
+}
+
+.now {
+    background-image: url(https://wallpaperaccess.com/full/626890.jpg);
+}
+
+@font-face {
+    font-family: "Work Sans";
+    src: url("/resources/fonts/WorkSans-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("/resources/fonts/Montserrat-Bold.ttf");
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("/resources/fonts/Montserrat-Medium.ttf");
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: "Work Sans", sans-serif;
+}
+
+/* Website banner at the top */
+div#banner {
+    background-image: url(https://media.istockphoto.com/photos/golden-background-picture-id970013170?b=1&k=20&m=970013170&s=170667a&w=0&h=8DHu4R3fC7rQPS2ib17TxJGdt_yvhjtjornUjMlHcDY=);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    height: 75vh;
+    text-align: center;
+    border: 5px solid yellow;
+}
+
+/* Banner at the top of the webpage */
+div#banner-img-container {
+    width: 130px;
+    height: 130px;
+    border-radius: 100%;
+    margin: 20px;
+    margin-left: 135px;
+    padding: 10px;
+    box-shadow: 10px 10px;
+
+}
+
+/* Image inside the banner */
+img#banner-pic {
+    width: 100%;
+    border-radius: 50%;
+    object-fit: contain;
+}
+
+/* heading element used for the website title */
+h1:hover {
+    font-family: cursive;
+    sans-serif;
+    color: deeppink;
+    font-size: 40px;
+
+}
+
+/* heading element used for the title of each row/section under the banner */
+h2 {
+    margin-bottom: 10px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 28px;
+    background-color: lightpink;
+    text-align: center;
+
+}
+
+/* heading element used for the website slogan/tagline in the banner */
+h3 {
+    color: rgb(0, 0, 0);
+    padding: 1rem 5rem;
+    font-weight: 500;
+    font-family: "Montserrat", sans-serif;
+    background-color: darksalmon;
+    font-family: fantasy;
+    text-shadow: 1px 1px;
+    ;
+}
+
+/* styling for all the paragraph elements  */
+p {
+    line-height: 1.2;
+    font-family: cursive;
+    sans-serif;
+}
+
+#de {
+    width: 90px;
+    height: 50px;
+    border-radius: 100%;
+    padding-left: 0px;
+}
+
+img {
+    widows: 100px;
+    height: 100px;
+}
+
+#ggg {
+    background-image: url();
+}
+
+
+
+
+
+
+/* styling for all the rows */
+div.row {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    padding: 5%;
+}
+
+/* styling for the columns inside each row */
+div.column {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+img {
+    width: 100%;
+    object-fit: contain;
+}
+
+#ddd {
+    background-color: violet;
+}
+
+/* styling for odd-numbered rows */
+.how:nth-child(odd) {
+    background-color: aliceblue;
+    background-image: url(https://64.media.tumblr.com/a8500c2e6620daa8df6ad1c0311c5334/tumblr_osxxj06S3U1wuo4ego5_500.jpg);
+    border: 5px
+}
+
+/* styling for even-numbered rows */
+.row {
+
+    flex-direction: row-reverse;
+    color: #ffffff;
+}
+
+#ccc {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+
+}
+
+#ddd {
+    display: flex;
+    list-style: none;
+    text-align: left;
+    padding-left: 5px
+}
+
+.wow {
+    background-image: url(https://i.pinimg.com/originals/df/3b/c2/df3bc2de71b7c6f330c80702522dacd4.jpg);
+}
+
+.now {
+    background-image: url(https://wallpaperaccess.com/full/626890.jpg);
+}
+
+
+div.text-column {
+    flex: 3;
+}
+
+div.img-column {
+    flex: 1;
+}
+
+
+div.text-column {
+    flex: 3;
+}
+
+div.img-column {
+    flex: 1;
+}
+
+#sss {
+    display: flex;
+
+}
+
+.a {
+    list-style-type: circle;
+    color: red;
+}
+
+table,
+th,
+td {
+    border: 1px solid;
+}
+
+#pee {
+    background-color: coral;
+    width: 200px;
+    height: 100px;
+    border: 1px solid black;
+    overflow: scroll;
+}
+
+#tsho {
+    display: flex;
+    justify-content: space-around;
+}
+
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+#p1 {
+    background-color: rgba(255, 0, 0, 0.3);
+}
+
+#p2 {
+    background-color: rgba(0, 255, 0, 0.3);
+}
+
+#p3 {
+    background-color: rgba(0, 0, 255, 0.3);
+}
+
+#p4 {
+    background-color: rgba(192, 192, 192, 0.3);
+}
+
+#p5 {
+    background-color: rgba(255, 255, 0, 0.3);
+}
+
+#p6 {
+    background-color: rgba(255, 0, 255, 0.3);
+}
+
+p.test {
+    width: 11em;
+    border: 1px solid #000000;
+    word-wrap: break-word;
+}
